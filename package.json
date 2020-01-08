@@ -1,0 +1,22 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "This is a small crash course on node",
+  "main": "http.js",
+  "scripts": {
+    "develop": "nodemon http.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norrico31/Node-crash-course.git"
+  },
+  "author": "norrico gerald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/norrico31/Node-crash-course/issues"
+  },
+  "homepage": "https://github.com/norrico31/Node-crash-course#readme",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
