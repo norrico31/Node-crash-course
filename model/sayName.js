@@ -5,4 +5,5 @@ const sayAddress = () => {
     console.log("I'am at Santa Rosa City")
 }
 
-module.exports = sayName;
+module.exports.sayName = sayName;
+module.exports.sayAddress = sayAddress;

@@ -4,5 +4,10 @@
 //     // means only in node not in the window or in the browser
 // });
 //console.log(`Filename: ${__filename}`)
+
+
+
 const sayName = require('./model/sayName')
-sayName();
+
+sayName.sayName(); // this is a function from extension
+sayName.sayAddress();
