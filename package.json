@@ -4,7 +4,8 @@
   "description": "This is a small crash course on node",
   "main": "http.js",
   "scripts": {
-    "develop": "nodemon http.js"
+    "develop": "node http",
+    "devStart": "nodemon http"
   },
   "repository": {
     "type": "git",
